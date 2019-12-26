@@ -1,5 +1,5 @@
 import UIKit
-/*
+
 //1
 
 func createCollectionWithElements(elementsCount: Int) -> [Int] {
@@ -112,9 +112,8 @@ func createCollectionWithFibonacciNumbers(elements: Int) -> [Int] {
 
 print(createCollectionWithFibonacciNumbers(elements: 10))
 
-*/
+
 //8
-/*
 func createCollectionWithRandomNumbers(elements: Int) -> [Int] {
     
     var a = Array(repeating: 0, count: elements)
@@ -149,8 +148,6 @@ func createCollectionWithSquaredNumbers(elements: Int) -> [Int] {
 
 print(createCollectionWithSquaredNumbers(elements: 25))
 
- */
-
 //10
 
 func createCollectionWithOnesOnOdd(elements: Int) -> [Int] {
@@ -171,3 +168,4 @@ func createCollectionWithOnesOnOdd(elements: Int) -> [Int] {
 print(createCollectionWithOnesOnOdd(elements: 100))
  
 
+// davai rabotai
