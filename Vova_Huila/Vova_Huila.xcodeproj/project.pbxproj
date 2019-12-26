@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745D544923A2EEE500401C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D544823A2EEE500401C49 /* AppDelegate.swift */; };
+		745D544B23A2EEE500401C49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D544A23A2EEE500401C49 /* SceneDelegate.swift */; };
+		745D544D23A2EEE500401C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D544C23A2EEE500401C49 /* ViewController.swift */; };
+		745D545023A2EEE500401C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745D544E23A2EEE500401C49 /* Main.storyboard */; };
+		745D545223A2EEE700401C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745D545123A2EEE700401C49 /* Assets.xcassets */; };
+		745D545523A2EEE700401C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745D545323A2EEE700401C49 /* LaunchScreen.storyboard */; };
+		745D545E23A2F0E000401C49 /* volodka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 745D545D23A2F0E000401C49 /* volodka.jpeg */; };
+		745D546023A2F1ED00401C49 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 745D545F23A2F1ED00401C49 /* 1.png */; };
+		7489134023A44D7F008A50DB /* yoba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7489133F23A44D7F008A50DB /* yoba.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		745D544523A2EEE400401C49 /* Vova_Huila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vova_Huila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745D544823A2EEE500401C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		745D544A23A2EEE500401C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		745D544C23A2EEE500401C49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		745D544F23A2EEE500401C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		745D545123A2EEE700401C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745D545423A2EEE700401C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		745D545623A2EEE700401C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745D545C23A2EF2100401C49 /* VOVA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VOVA.jpeg; sourceTree = "<group>"; };
+		745D545D23A2F0E000401C49 /* volodka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volodka.jpeg; sourceTree = "<group>"; };
+		745D545F23A2F1ED00401C49 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7489133F23A44D7F008A50DB /* yoba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yoba.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745D544223A2EEE400401C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745D543C23A2EEE400401C49 = {
+			isa = PBXGroup;
+			children = (
+				745D544723A2EEE400401C49 /* Vova_Huila */,
+				745D544623A2EEE400401C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		745D544623A2EEE400401C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745D544523A2EEE400401C49 /* Vova_Huila.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745D544723A2EEE400401C49 /* Vova_Huila */ = {
+			isa = PBXGroup;
+			children = (
+				745D544823A2EEE500401C49 /* AppDelegate.swift */,
+				745D544A23A2EEE500401C49 /* SceneDelegate.swift */,
+				745D544C23A2EEE500401C49 /* ViewController.swift */,
+				745D544E23A2EEE500401C49 /* Main.storyboard */,
+				745D545123A2EEE700401C49 /* Assets.xcassets */,
+				745D545D23A2F0E000401C49 /* volodka.jpeg */,
+				745D545F23A2F1ED00401C49 /* 1.png */,
+				745D545C23A2EF2100401C49 /* VOVA.jpeg */,
+				7489133F23A44D7F008A50DB /* yoba.mp3 */,
+				745D545323A2EEE700401C49 /* LaunchScreen.storyboard */,
+				745D545623A2EEE700401C49 /* Info.plist */,
+			);
+			path = Vova_Huila;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745D544423A2EEE400401C49 /* Vova_Huila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745D545923A2EEE700401C49 /* Build configuration list for PBXNativeTarget "Vova_Huila" */;
+			buildPhases = (
+				745D544123A2EEE400401C49 /* Sources */,
+				745D544223A2EEE400401C49 /* Frameworks */,
+				745D544323A2EEE400401C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vova_Huila;
+			productName = Vova_Huila;
+			productReference = 745D544523A2EEE400401C49 /* Vova_Huila.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745D543D23A2EEE400401C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Aleksey;
+				TargetAttributes = {
+					745D544423A2EEE400401C49 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 745D544023A2EEE400401C49 /* Build configuration list for PBXProject "Vova_Huila" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745D543C23A2EEE400401C49;
+			productRefGroup = 745D544623A2EEE400401C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745D544423A2EEE400401C49 /* Vova_Huila */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745D544323A2EEE400401C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D545E23A2F0E000401C49 /* volodka.jpeg in Resources */,
+				745D545523A2EEE700401C49 /* LaunchScreen.storyboard in Resources */,
+				745D545223A2EEE700401C49 /* Assets.xcassets in Resources */,
+				745D545023A2EEE500401C49 /* Main.storyboard in Resources */,
+				745D546023A2F1ED00401C49 /* 1.png in Resources */,
+				7489134023A44D7F008A50DB /* yoba.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745D544123A2EEE400401C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D544D23A2EEE500401C49 /* ViewController.swift in Sources */,
+				745D544923A2EEE500401C49 /* AppDelegate.swift in Sources */,
+				745D544B23A2EEE500401C49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		745D544E23A2EEE500401C49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745D544F23A2EEE500401C49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		745D545323A2EEE700401C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745D545423A2EEE700401C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		745D545723A2EEE700401C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		745D545823A2EEE700401C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745D545A23A2EEE700401C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LQ2M3PA7;
+				INFOPLIST_FILE = Vova_Huila/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.nonamecreative.Vova-Huila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745D545B23A2EEE700401C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LQ2M3PA7;
+				INFOPLIST_FILE = Vova_Huila/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.nonamecreative.Vova-Huila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745D544023A2EEE400401C49 /* Build configuration list for PBXProject "Vova_Huila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745D545723A2EEE700401C49 /* Debug */,
+				745D545823A2EEE700401C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745D545923A2EEE700401C49 /* Build configuration list for PBXNativeTarget "Vova_Huila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745D545A23A2EEE700401C49 /* Debug */,
+				745D545B23A2EEE700401C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745D543D23A2EEE400401C49 /* Project object */;
+}

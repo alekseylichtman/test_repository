@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Vova_Huila" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ВОЛОДЬКА" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh4-l6-YwR">
+                                <rect key="frame" x="61" y="631" width="252" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="uvH-d0-0Y1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="37Y-tx-3hb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAy-cU-qdY">
+                                <rect key="frame" x="20" y="732" width="334" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="ПОКАЗАТЬ ВОЛОДЬКУ"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8aJ-B9-qln"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VAy-cU-qdY" firstAttribute="top" secondItem="gh4-l6-YwR" secondAttribute="bottom" constant="44" id="2EE-uR-gR7"/>
+                            <constraint firstItem="gh4-l6-YwR" firstAttribute="top" secondItem="37Y-tx-3hb" secondAttribute="bottom" constant="24" id="54F-c9-CCI"/>
+                            <constraint firstItem="37Y-tx-3hb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9E2-75-b0T"/>
+                            <constraint firstItem="VAy-cU-qdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nlw-Y3-heP"/>
+                            <constraint firstItem="37Y-tx-3hb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OB5-ve-1pB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VAy-cU-qdY" secondAttribute="trailing" constant="21" id="VKs-4V-IIj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gh4-l6-YwR" secondAttribute="trailing" constant="62" id="aze-tX-KkW"/>
+                            <constraint firstItem="VAy-cU-qdY" firstAttribute="top" secondItem="gh4-l6-YwR" secondAttribute="bottom" constant="44" id="bdS-8m-p9d"/>
+                            <constraint firstItem="37Y-tx-3hb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cVL-HH-6q7"/>
+                            <constraint firstItem="gh4-l6-YwR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="etI-1R-b1D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VAy-cU-qdY" secondAttribute="bottom" id="kKF-LU-2i0"/>
+                            <constraint firstItem="gh4-l6-YwR" firstAttribute="top" secondItem="37Y-tx-3hb" secondAttribute="bottom" constant="24" id="yjx-e6-kKQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="VAy-cU-qdY" id="cNN-Ix-1xg"/>
+                        <outlet property="imageVIew" destination="37Y-tx-3hb" id="Hel-ri-drG"/>
+                        <outlet property="volodkaLabel" destination="gh4-l6-YwR" id="GpU-XS-3nH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="137.4384236453202"/>
+        </scene>
+    </scenes>
+</document>
